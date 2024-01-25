@@ -14,4 +14,16 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Compile Remove="Model\Controller\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="Model\Controller\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Model\Controller\**" />
+    </ItemGroup>
+
 </Project>
