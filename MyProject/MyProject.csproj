@@ -14,4 +14,9 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Model\Repository\" />
+      <Folder Include="View\" />
+    </ItemGroup>
+
 </Project>
